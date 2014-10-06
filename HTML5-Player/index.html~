@@ -16,9 +16,8 @@
 <body>
     <div id="player-wrapper" style="position: relative">
         <div id="player"> 
-        	
+        	<input id="inputfile" type="file" accept="video/*" style="position: absolute" />
         </div>
-	<input id="inputfile" type="file" accept="video/*" style="position: absolute" />
         <div id="message"></div>
        
     </div>
