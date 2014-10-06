@@ -11,6 +11,7 @@
     <link href="css/player.css" rel="stylesheet">
     <link href="css/epg.css" rel="stylesheet">
     <link href="css/karaoke.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -19,11 +20,13 @@
         	
         </div>
 	<input id="inputfile" type="file" accept="video/*" style="position: absolute" />
-        <div id="message"></div>
+        <div id="message">
+		
+	</div>
        
     </div>
 
-
+    <script src="play.js"></script>
     <script src="lib/jquery/jquery-2.0.3.min.js"></script>
     <script src="lib/jquery/js/jquery.mobile.custom.min.js"></script>
     <script src="lib/jquery/js/jquery-ui.js"></script>
@@ -35,8 +38,7 @@
     <script src="js/player.subtitle.js"></script>
     <script src="js/player.epg.js"></script>
     <script src="js/player.karaoke.js"></script>
-    <script src="js/dropzone.js"></script>
-    <script type="text/javascript" src="play.js"></script>
+    
     <script type="text/javascript">
     $(function() {
         var player = new VP9.player({
